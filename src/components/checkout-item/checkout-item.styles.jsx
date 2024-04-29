@@ -8,37 +8,44 @@ border-bottom: 1px solid darkgrey;
 padding: 15px 0;
 font-size: 20px;
 align-items: center;
+justify-content: space-between;
 `;
 
 export const ImgContainer = styled.div`
-width: 23%;
+  width: 23%;
   padding-right: 15px;
 `;
 
 export const Img = styled.img`
-width: 100%;
+  width: 100%;
   height: 100%;
 `;
 
 export const Price = styled.span`
-width: 23%;
+  width: 23%;
+`;
+
+export const Description = styled.span`
+  width: 18%;
+  margin-right:35px;
 `;
 
 export const Quantity = styled.span`
+width: 24%;
 display: flex;
 `;
 
 export const Arrow = styled.div`
-cursor: pointer;
+  cursor: pointer;
 `;
 
 export const Value = styled.span`
-margin: 0 10px;
+  margin: 0 10px;
 `;
 
 export const RemoveButton = styled.span`
-padding-left: 12px;
-      cursor: pointer;
+  padding-right: 28px;
+  cursor: pointer;
 `;
 
 
