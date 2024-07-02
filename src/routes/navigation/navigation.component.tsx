@@ -3,6 +3,8 @@ import { Outlet } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { ReactComponent as CrwnLogo } from '../../assets/crown.svg';
+import { ReactComponent as CandyLogo } from '../../assets/candy.svg';
+
 import { selectCurrentUser } from '../../store/user/user.selector';
 import { selectIsCartOpen } from '../../store/cart/cart.selector';
 import CartIcon from '../../components/cart-icon/cart-icon.component';
@@ -23,7 +25,7 @@ const Navigation = () => {
     <Fragment>
       <NavigationContainer>
         <LogoContainer to='/'>
-          <CrwnLogo className='logo' />
+          <CandyLogo/>
         </LogoContainer>
         <NavLinks>
           <NavLink to='/shop'>
